@@ -7,6 +7,17 @@ public class Persona {
   int edad;
   char genero;
 
+  // Construcor
+  Persona() {
+    System.out.println("Esto es un Constructor");
+  }
+
+  Persona(String n, int ed, char g) {
+    nombre = n;
+    edad = ed;
+    genero = g;
+  }
+
   // Metodos
   void Informacion() {
     System.out.println("Nombre: " + nombre);
@@ -15,14 +26,11 @@ public class Persona {
   }
 
   void JugarVideosJuegos(Persona p) {
-    System.out.println(nombre + " Esta jugando con " + p.nombre);
+    System.out.println(nombre + " Esta jugando a la play con " + p.nombre);
   }
 
   public static void main(String[] args) {
-    Persona p = new Persona();
-    p.nombre = "Eri";
-    p.edad = 25;
-    p.genero = 'F';
+    Persona p = new Persona("Eri", 25, 'F');
     p.Informacion();
 
     Persona p1 = new Persona();
