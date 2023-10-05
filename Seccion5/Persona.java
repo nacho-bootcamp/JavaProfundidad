@@ -9,13 +9,15 @@ public class Persona {
 
   // Construcor
   Persona() {
+    // constructor por defecto
+    this("nombre por defecto", 22, 'M');
     System.out.println("Esto es un Constructor");
   }
 
-  Persona(String n, int ed, char g) {
-    nombre = n;
-    edad = ed;
-    genero = g;
+  Persona(String nombre, int edad, char genero) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.genero = genero;
   }
 
   // Metodos
@@ -33,11 +35,10 @@ public class Persona {
     Persona p = new Persona("Eri", 25, 'F');
     p.Informacion();
 
-    Persona p1 = new Persona();
-    p1.nombre = "Nacho";
-    p1.edad = 22;
-    p1.genero = 'M';
+    Persona p1 = new Persona("Nacho", 22, 'M');
     p1.Informacion();
     p1.JugarVideosJuegos(p);
+
+    new Persona().Informacion();
   }
 }
