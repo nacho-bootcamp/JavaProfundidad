@@ -1,0 +1,34 @@
+1_Deporte y football:
+
+Clase Padre : Deporte
+Clases hijas: Futbol,Basquetball,Rugby,etc.
+Ejemplo: El football ES UN Deporte, el Basquetball ES UN deporte, el Rugby ES UN deporte. 
+
+
+2_Dispositivos Electrónicos y Teléfonos Móviles:
+
+Clase Padre: DispositivoElectrónico
+Clases hijas: TeléfonoMóvil, Tablet, Laptop, etc.
+Ejemplo: Un TeléfonoMóvil ES UN DispositivoElectrónico,una Tablet ES UN DispositivoElectrónico,
+una Laptop ES UN DispositivoElectrónico.
+
+3_Figuras Geométricas y Cuadrados:
+
+Clase Padre: FiguraGeométrica
+Clases hijas: Cuadrado, Triángulo, Círculo, etc.
+Ejemplo: Un Cuadrado ES UN FiguraGeométrica,un Triángulo ES UN FiguraGeométrica,
+un Círculo ES UN FiguraGeométrica .
+
+4_Vehículos y Auto:
+
+Clase Padre: Vehículo
+Clases hijas: Auto, Motocicleta, Camión, etc.
+Ejemplo: Un Auto ES UN  Vehículo, una Motocicleta ES UN  Vehículo,
+un Camión ES UN  Vehículo.
+
+5_Instrumentos Musicales y Guitarras:
+
+Clase Padre: InstrumentoMusical
+Clases hijas: Guitarra, Piano, Violín, etc.
+Ejemplo: Una Guitarra ES UN InstrumentoMusical,Un Piano ES UN InstrumentoMusical,
+un Violín ES UN InstrumentoMusical.
