@@ -10,7 +10,7 @@ public class CalcularArea {
 
     // calcular el area de un circulo
 
-    double AreaCirculo = Math.PI * (23.5 * 2);
+    double AreaCirculo = Math.PI * Math.pow(23.3, 2);
     System.out.println(AreaCirculo);
 
     // calcular el area de un rectangulo

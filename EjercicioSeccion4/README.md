@@ -1,7 +1,7 @@
 ## Ejercicios de la Seccion 4
 
 1.  Ejercicio
-    Realizar un programa que imprima las tablas de multiplicar del 1 al 20
+    Realizar un programa que imprima las tablas de multiplicar del **1 al 20**
     debe existir un espacio entre una y otra para identificarlas
 
 2.  Ejercicio

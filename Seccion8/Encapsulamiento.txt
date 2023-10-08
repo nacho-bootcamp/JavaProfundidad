@@ -1,0 +1,21 @@
+                       ENCAPSULAMIENTO
+El encapsulamiento permite ocultar parte de nuestro codigo y exponer
+solo lo que deseamos, en la clase por ejemplo examen podemos acceder 
+al valor de la calificacion pero solo atraves de metodos getter y setter.
+
+                       ACOPLAMIENTO (-)
+Es que tanto depende tu clase de otra clases , nosotros debemos buscar tener un bajo 
+acoplamiento.
+
+                        COHESION (+)
+Es que tu clase tenga metodos y atributos que vas deacuerdo al contexto
+de tu clase.
+
+                        POLIMORFISMO
+Es que una clase , un objeto puede ser visto como diferente forma de acuerdo
+a las clases y a la jerarquia de clases que tenga.
+
+                        CLASES ABSTRACTAS
+La definicion de un metodo sin implementacion se conoce como metodo
+abstracto.Una clase abstracta es una clase que puede contener
+metodos abstractos y metodos concretos.
