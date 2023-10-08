@@ -1,6 +1,6 @@
 package Seccion8;
 
-public class Figura {
+public abstract class Figura {
   private String color;
 
   Figura(String color) {
@@ -15,8 +15,6 @@ public class Figura {
     return color;
   }
 
-  public double calcularArea() {
-    return 0;
-  }
+  public abstract double calcularArea();
 
 }

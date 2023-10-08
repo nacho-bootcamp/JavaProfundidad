@@ -19,3 +19,14 @@ a las clases y a la jerarquia de clases que tenga.
 La definicion de un metodo sin implementacion se conoce como metodo
 abstracto.Una clase abstracta es una clase que puede contener
 metodos abstractos y metodos concretos.
+
+Si yo implemento una clase abstracta los metodos que esten abstracto deben utilizarse
+pero si una clase no la nesecita se puede convertir en una clase abstracta.
+
+La clase no pued ser final porque no podra heredar nada a las clases hijas. 
+
+No se puede crear instanciar una clase abstracta.
+
+                          INTERFACES
+Cuando implementas una interfaz aceptas el contrato de implementar sus metodos.
+Una interfaz define metodos sin implementacion,constantes y metodos default.

@@ -1,6 +1,6 @@
 package Seccion8;
 
-public class Cuadro extends Figura {
+public class Cuadro extends Figura implements Dibujable {
 
   private double lado;
 
@@ -20,6 +20,11 @@ public class Cuadro extends Figura {
   @Override
   public double calcularArea() {
     return lado * lado;
+  }
+
+  @Override
+  public void dibujar() {
+    System.out.println("Se dibujo un Cuadro");
   }
 
 }

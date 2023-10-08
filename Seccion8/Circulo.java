@@ -1,6 +1,6 @@
 package Seccion8;
 
-public class Circulo extends Figura {
+public class Circulo extends Figura implements Dibujable {
   private double radio;
 
   public double getRadio() {
@@ -14,6 +14,11 @@ public class Circulo extends Figura {
   @Override
   public double calcularArea() {
     return Math.PI * Math.pow(radio, 2);
+  }
+
+  @Override
+  public void dibujar() {
+    System.out.println("Se dibujo un Circulo");
   }
 
   Circulo(String color, double radio) {
