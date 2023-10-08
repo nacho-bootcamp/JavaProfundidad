@@ -1,18 +1,11 @@
 package EjercicioSeccion5;
 
-/*1.Realizar un diagrama de clases que represente mascotas*/
 public class Caballo {
   String nombre;
   char genero;
   double peso;
   double estatura;
   String fechaNacimiento;
-
-  /*
-   * 2.Crear las clases definidas en el ejercicio anterior, cada una debera tener
-   * mas de un constructor
-   * y el codigo que se utiliza para inicializar no se debe repertir
-   */
 
   Caballo(String nombre, String fechaNacimiento) {
     this.nombre = nombre;

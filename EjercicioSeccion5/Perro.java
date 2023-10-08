@@ -1,6 +1,5 @@
 package EjercicioSeccion5;
 
-//realizar un diagrama de clases que represente mascotas
 public class Perro {
   String nombre;
   String raza;
