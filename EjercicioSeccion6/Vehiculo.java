@@ -18,7 +18,7 @@ public class Vehiculo {
   }
 
   Vehiculo() {
-    this("Volkswagen", 250);
+    this("Automivil", 250);
     System.out.println("Constructor por defecto");
   }
 
@@ -26,7 +26,7 @@ public class Vehiculo {
     System.out.println(vehiculo + " tiene una velocidad maxima de " + velocidadMaxima);
   }
 
-  void proteccionContraCoques() {
+  void proteccionContraChoques() {
     System.out.println("El " + vehiculo + " cuando sufre un choque te proteje las bolsas de aire ");
   }
 }
