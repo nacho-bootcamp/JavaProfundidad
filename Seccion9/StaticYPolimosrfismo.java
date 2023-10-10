@@ -15,6 +15,7 @@ class B extends A {
 public class StaticYPolimosrfismo {
   public static void main(String[] args) {
     A a = new B();
+
     a.foo();
   }
 }

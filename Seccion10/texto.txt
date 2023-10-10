@@ -1,0 +1,6 @@
+                              ARREGLOS
+En java los arreglos son objetos que almacenan multiples valores del mismo
+tipo, una vez definido el tamaño de este no cambia, veamos 
+algunos puntos a considerar:
+_Pueden almacenar primitivos y objetos.
+_Existen arreglos unidimensionales y multidimensionales.
