@@ -1,0 +1,6 @@
+                        STATIC
+La palabra reservada static se  utiliza para cerar variables 
+y metodos que existiran independientemente de si existe o no 
+una instancia(objeto) de una clase.
+Existira solo una copia de un metodo / atributo static sin importar 
+el numero de objetos que tenga la clase. 

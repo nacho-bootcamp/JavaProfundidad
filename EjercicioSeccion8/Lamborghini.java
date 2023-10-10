@@ -1,4 +1,4 @@
-package EjercicionSeccion8;
+package EjercicioSeccion8;
 
 public class Lamborghini extends Automovil implements FrenoDeMano {
   int velocidad;
@@ -22,7 +22,7 @@ public class Lamborghini extends Automovil implements FrenoDeMano {
     if (mantenimiento) {
       return distancia * velocidad;
     } else {
-      return 30 - (distancia * velocidad);
+      return (distancia * velocidad) - 30;
     }
   }
 

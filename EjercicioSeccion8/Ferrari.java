@@ -1,4 +1,4 @@
-package EjercicionSeccion8;
+package EjercicioSeccion8;
 
 public class Ferrari extends Automovil implements FrenoDeMano {
   double tamañoDelTanque;
@@ -15,7 +15,7 @@ public class Ferrari extends Automovil implements FrenoDeMano {
 
   @Override
   public double calcularConsumoDeGasolina() {
-    return tamañoDelTanque - (0.2 * distancia);
+    return (0.2 * distancia) - tamañoDelTanque;
   }
 
   @Override

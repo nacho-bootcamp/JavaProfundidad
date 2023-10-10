@@ -1,4 +1,4 @@
-package EjercicionSeccion8;
+package EjercicioSeccion8;
 
 public abstract class Automovil {
   String marca;

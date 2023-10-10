@@ -1,4 +1,4 @@
-package EjercicionSeccion8;
+package EjercicioSeccion8;
 
 public class PruebaAutomovil {
 
@@ -15,8 +15,8 @@ public class PruebaAutomovil {
 
   public static void main(String[] args) {
     PruebaAutomovil prueba = new PruebaAutomovil();
-    prueba.calculadorDePeajes(new Ferrari("Ferrari", "negro", 350, 100, 40));
-    prueba.costoPeaje(new Lamborghini("Ferrari", "negro", 350, 100, true));
+    prueba.calculadorDePeajes(new Ferrari("Ferrari", "negro", 350, 1000, 40));
+    prueba.costoPeaje(new Lamborghini("Ferrari", "negro", 350, 100, false));
 
   }
 }
