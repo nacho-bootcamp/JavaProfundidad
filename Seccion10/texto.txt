@@ -4,3 +4,7 @@ tipo, una vez definido el tamaño de este no cambia, veamos
 algunos puntos a considerar:
 _Pueden almacenar primitivos y objetos.
 _Existen arreglos unidimensionales y multidimensionales.
+
+                              ENUMERACION 
+Una enumeracion es un tipo especial de clase que representa un grupo 
+de constantes estas constantes deberan estar en mayuscula.
