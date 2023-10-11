@@ -1,0 +1,9 @@
+                             WRAPPER CLASES
+
+Las WRAPPER CLASES en java tienen 2 principales propositos:
+
+_Proveer un mecanismo para envolver valores primitivos en objetos y asi ser
+incluidos en actividades exclusivas para objetos.
+
+_Proveer una gran variedad de utilidades, muchas de ellas estan relacionadas con 
+la conversion.
