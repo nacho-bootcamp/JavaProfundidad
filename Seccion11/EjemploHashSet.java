@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class EjemploHashSet {
   public static void main(String[] args) {
-    // no importa el orden y no habredatos repetidos
+    // no importa el orden y no habra datos repetidos
     HashSet<String> lista = new HashSet<>();
     lista.add("nacho");
     lista.add("nacho");
