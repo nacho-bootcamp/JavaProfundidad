@@ -17,3 +17,19 @@ primitivo a su correspondiente WRAPPER CLASS.
 
 Es la conversion que hace el compilador de java de la WRAPPER
 CLASS al tipo de dato primitivo.
+
+                            COLECCIONES EN JAVA
+
+Las colecciones en Java son un framework que permite almacenar un grupo
+ de objetos, a diferencia de los arreglos las colecciones pueden crecer.
+
+ _COLLECTION :Todas las colecciones a excepcion de las que 
+ provienen de la interfaz Map provienen de la interfaz Collection.
+
+ _LIST :Permite generar listas simples de Objetos.
+
+ _MAP :Permite almacenar objetos en pares llave y valor, las llaves deben
+ ser unicas.
+
+ _QUEUE : Permite almacenar objetos de acuerdo al orden de insercion o a 
+ reglas definidas.
