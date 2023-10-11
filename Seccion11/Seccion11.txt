@@ -7,3 +7,13 @@ incluidos en actividades exclusivas para objetos.
 
 _Proveer una gran variedad de utilidades, muchas de ellas estan relacionadas con 
 la conversion.
+
+                              AUTOBOXING
+
+Es la conversion que hace el compilador de java de el tipo 
+primitivo a su correspondiente WRAPPER CLASS.
+
+                              AUTO-UNBOXING
+
+Es la conversion que hace el compilador de java de la WRAPPER
+CLASS al tipo de dato primitivo.
