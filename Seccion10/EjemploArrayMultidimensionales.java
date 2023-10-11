@@ -10,8 +10,9 @@ public class EjemploArrayMultidimensionales {
 
     for (int i = 0; i < arreglo.length; i++) {
       for (int j = 0; j < arreglo[i].length; j++) {
-        System.out.println(arreglo[i][j]);
+        System.out.print(arreglo[i][j] + "\t");
       }
+      System.out.println();
     }
   }
 }
