@@ -1,4 +1,7 @@
-package EjercicioSeccion9y10;
+package EjercicioSeccion11;
+
+import java.util.ArrayList;
+import java.util.List;
 
 class Mascotas {
   private String raza;
@@ -57,13 +60,13 @@ class Mascotas {
 
 }
 
-public class Ejercicio3 {
+public class Ejercicio1 {
   public static void main(String[] args) {
-    Mascotas arregloMascota[] = new Mascotas[2];
-    arregloMascota[0] = new Mascotas("Pitbull", 2, 40.0, 'H', true);
-    arregloMascota[1] = new Mascotas("Dogo Argentino", 4, 48.5, 'M', true);
+    List<Mascotas> listaMascotas = new ArrayList<>();
+    listaMascotas.add(new Mascotas("pitbull", 120, 120.5, 'M', false));
+    listaMascotas.add(new Mascotas("Dogo", 3, 110.5, 'M', false));
 
-    for (Mascotas mascotas : arregloMascota) {
+    for (Mascotas mascotas : listaMascotas) {
       System.out.println("La raza es " + mascotas.getRaza());
       System.out.println("Tiene la edad de " + mascotas.getEdad() + " años");
       System.out.println("La corre a una velocidad de " + mascotas.getVelocidadMaxima());
