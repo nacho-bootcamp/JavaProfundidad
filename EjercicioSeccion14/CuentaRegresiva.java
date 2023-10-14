@@ -31,7 +31,7 @@ public class CuentaRegresiva {
     Counter[] hilo = new Counter[10];
 
     for (int i = 0; i < 10; i++) {
-      hilo[i] = new Counter(new Random().nextInt(15), "contador" + i);
+      hilo[i] = new Counter(15, "contador" + i);
       hilo[i].start();
     }
     try {
