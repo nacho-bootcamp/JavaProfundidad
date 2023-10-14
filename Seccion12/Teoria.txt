@@ -1,0 +1,21 @@
+THROWABLE
+Es la clase padre de todos los problemas que encontraremos al desarrollar
+aplicaciones java.
+
+ERROR
+Se utiliza para representar situaciones inusuales de las que las aplicaciones 
+no se pueden recuperar.
+
+EXCEPTION
+Son errores en tiempo de ejecucion de nuestro programas y se pueden clasificar
+de acuerdo a lo siguiente:
+
+CHECKED
+Son exceptiones que el compilador requiere que manejemos, las utilizamos
+cuando quien llama a nuestro metodo se puede recuperar de esa situacion.
+
+UNCHECKED
+Son excepciones que el compilador no requiere que manejemos, todas las 
+excepciones que hereden de RuntimeException sera consideradas
+como unchecked.Las utilizaremos para representar problemas que resultan
+de errores de programacion.

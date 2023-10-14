@@ -1,5 +1,6 @@
 package EjercicioSeccion11;
 
+//Ejercicio 2
 public class Nodo {
 
   private String dato;
