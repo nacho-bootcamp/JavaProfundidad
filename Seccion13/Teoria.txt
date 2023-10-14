@@ -1,0 +1,10 @@
+INNER CLASS(CLASES INTERNAS)
+Se clasifican del siguiente modo:
+_CLASE INTERNA REGULARES
+
+Representan clases que no son anonimas,static o a nivel de
+metodos.
+
+_CLASE INTERNA A NIVEL DE METODOS
+_CLASE ANONIMA
+_CLASES INTERNAS ESTATICAS
