@@ -8,3 +8,57 @@ _Creando un objeto de la clase Thread y sobreescribir
 el metodo run().
 _Creando un Objeto que implementa la interfaz
 Runnable e implementando el metodo run().
+
+CICLOS DE VIDA DE LOS HILOS
+
+Los hilos se pueden encontrar en los siguientes estados:
+
+NEW : El hilo se ha creado pero no se ha ejecutado el metodo start().
+
+RUNNABLE: Se ejecuto el metodo start() y el hilo esta listo para ser 
+ejecutado.
+
+RUNNING: El hilo se encuentra en ejecucion.
+
+WAITING/BLOCKING: El hilo no es elegible para ser ejecutado. El hilo esta vivo pero 
+no es elegible.
+
+DEAD: El hilo se considera muerto cuando termina la ejecucion del 
+metodo run.No s posible iniciar de nuevo un hilo que se encuentra en 
+estado dead.
+
+                                   METODOS UTILES
+
+START(): Inicia la ejecucion de un hilo.
+
+JOIN(): Hace que un hilo espere la ejecucion de otro hasta que esta termine.
+
+SLEEP(): Metodo estatico que puedes utilizar para alentar la ejecucion de un hilo.
+
+YIELD(): Puede causar que se mande al hilo a estado Runnable, dependiendo de su prioridad.
+
+WAIT(): Envia al hilo  a esperar en un estado WAITING.
+
+NOTIFY(): Notifica para que un hilo en estado WAITING pasa a un estado RUNNABLE.
+
+NOTIFYALL(): Notifica a todos los hilos en estado WAITING para que vuelvan
+a estado RUNNABLE.
+
+SETNAME(): Asigna un nombre al hilo.
+
+SETPRIOTIRY(): Define la prioridad de un hilo.
+
+                      
+                             ALGORITMO DE PRODUCTOR Y CONSUMIDOR
+
+_Los productores deben producir mensajes en el LinkedList.
+_El objeto que contiene al LinkedList sera un recurso compartido entre el producer 
+y el consumer.
+_Si no hay mensajes a consumir el consumidor debe esperar hasta que sea notificado 
+que hay un mensaje nuevo.
+_Si el productor generea un mensaje debe notificar a los consumidores para 
+que vayan a consumirlo.
+TODO ESTO SE DEBE HACER DE FORMA SINCRONIZADA PARA QUE LOS HILOS SE EJECUTEN DE 
+FORMA INFINITA.
+
+PUEDE EXISTI N PRODUCTORES Y N CONSUMIDORES.
