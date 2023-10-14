@@ -1,0 +1,10 @@
+THREADS(HILOS)
+
+Un hilo es un objeto en java que tienen variables y metodo.Lo
+especial de esat clase es que permite ejecutar tareas de 
+forma concurrente.
+Existen 2 formas de definir un hilo:
+_Creando un objeto de la clase Thread y sobreescribir 
+el metodo run().
+_Creando un Objeto que implementa la interfaz
+Runnable e implementando el metodo run().

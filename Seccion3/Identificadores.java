@@ -10,8 +10,8 @@ public class Identificadores {
     @SuppressWarnings("unused")
     double sueldo = 10000.5;
 
-    @SuppressWarnings("unused")
-    double _ = 10000.115;
+    double _$ = 10000.115;
+    System.out.println(_$);
 
     @SuppressWarnings("unused")
     double $ = 10000000.5;

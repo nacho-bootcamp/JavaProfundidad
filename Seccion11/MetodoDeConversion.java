@@ -10,5 +10,8 @@ public class MetodoDeConversion {
     String valor = "10";
     int val = Integer.parseInt(valor);
     System.out.println(val);
+    System.out.println(d);
+    System.out.println(f);
+    System.out.println(l);
   }
 }
