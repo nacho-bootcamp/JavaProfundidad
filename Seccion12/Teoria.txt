@@ -27,3 +27,10 @@ _Un try puede tener muchos catch pero solo uno se ejecuta.
 _Se deben colocar los catch de los mas especificos a lo mas 
 general.
 _el bloque finally igual se ejecutara si catch tiene un return
+
+TRY WITH RESOURCES
+
+Nos permite declarar recursos que se utilizaran en un bloque try
+con la seguridad de que seran cerrados despues de la ejecucion 
+del bloque. Los recursos declarados deben implementar la
+interfaz AutoClosable
