@@ -14,7 +14,9 @@ public class DevsProducer extends Thread {
   public void run() {
     while (true) {
       try {
-        resource.produce(new Random().nextInt(1000));
+        int value = new Random().nextInt(1000);
+        System.out.printf("%s produced %d \n", getName(), value);
+        resource.produce(value);
         Thread.sleep(new Random().nextInt(150));
       } catch (InterruptedException e) {
         e.printStackTrace();

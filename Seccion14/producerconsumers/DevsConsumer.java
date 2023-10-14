@@ -13,8 +13,14 @@ public class DevsConsumer extends Thread {
   @Override
   public void run() {
     while (true) {
-      int value = resource.consume();
-      System.out.printf("%s consume %d \n", getName(), value);
+      int value;
+      try {
+        value = resource.consume();
+        System.out.printf("%s consume %d \n", getName(), value);
+      } catch (InterruptedException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
       try {
         Thread.sleep(new Random().nextInt(150));
       } catch (InterruptedException e) {

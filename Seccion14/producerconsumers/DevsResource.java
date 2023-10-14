@@ -5,11 +5,16 @@ import java.util.LinkedList;
 public class DevsResource {
   private LinkedList<Integer> resource = new LinkedList<>();
 
-  public int consume() {
+  public synchronized int consume() throws InterruptedException {
+    while (resource.size() <= 0) {
+      wait();
+    }
+
     return resource.poll();
   }
 
-  public void produce(int value) {
+  public synchronized void produce(int value) {
     resource.offer(value);
+    notifyAll();
   }
 }
