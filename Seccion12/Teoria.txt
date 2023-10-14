@@ -33,4 +33,10 @@ TRY WITH RESOURCES
 Nos permite declarar recursos que se utilizaran en un bloque try
 con la seguridad de que seran cerrados despues de la ejecucion 
 del bloque. Los recursos declarados deben implementar la
-interfaz AutoClosable
+interfaz AutoClosable.
+
+EXCEPCIONES PROPIAS 
+Si las excepciones que proporciona java no representa el error
+que necesitas, es posible crear tu propia excepcion para esto deberas
+de crear una clase que herede de Excetion o de RuntimeException
+dependiendo si quieres que sea CHECKED o UNCHECKED.
