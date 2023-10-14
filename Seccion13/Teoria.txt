@@ -8,3 +8,6 @@ metodos.
 _CLASE INTERNA A NIVEL DE METODOS
 _CLASE ANONIMA
 _CLASES INTERNAS ESTATICAS
+
+No es necesario crea objetos de la clase externa para instanciar 
+objetos de la clase interna.
