@@ -19,3 +19,11 @@ Son excepciones que el compilador no requiere que manejemos, todas las
 excepciones que hereden de RuntimeException sera consideradas
 como unchecked.Las utilizaremos para representar problemas que resultan
 de errores de programacion.
+
+REGLAS
+
+_Solo el bloque try es obligatorio.
+_Un try puede tener muchos catch pero solo uno se ejecuta.
+_Se deben colocar los catch de los mas especificos a lo mas 
+general.
+_el bloque finally igual se ejecutara si catch tiene un return
