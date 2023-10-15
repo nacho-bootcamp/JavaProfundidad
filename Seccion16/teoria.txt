@@ -1,0 +1,17 @@
+                               SOCKETS
+Los sockets permiten escribir programas que se ejecuten en diferentes computadoras
+que estan conectadas a traves de la red.
+
+Esta formado por:
+
+UN PROTOCOLO: Puede ser un UPD o TCP
+UNA IP: El lugar de origen o destino al que se enviara la informacion.
+UN PUERTO: Son utilizados para determinar a donde dirigir el trafico del 0 al
+1023 son puertos dedicados del sistema.
+
+                            SERVERSOCKET
+Nos permite definir  a nuestro socket servidor
+ServerSocket server=new ServerSocket(8080);
+                             SOCKET
+Nos permite definir a los clientes que se conectara al servidor 
+Socket socket=new Socket("localhost",8080);
