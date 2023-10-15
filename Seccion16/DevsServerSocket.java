@@ -19,7 +19,7 @@ public class DevsServerSocket {
       String mensaje = null;
       do {
         mensaje = dis.readUTF();
-        System.out.printf("%s dice ; %s", cliente.getInetAddress().getHostName(), mensaje);
+        System.out.printf("%s dice ; %s \n", cliente.getInetAddress().getHostName(), mensaje);
       } while (!"salir".equals(mensaje));
       System.out.println("Conexion cerrada");
       socket.close();
